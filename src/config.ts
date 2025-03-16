@@ -2,7 +2,7 @@ import { version } from '../package.json'
 
 export const SITE_ENV = process.env.NODE_ENV === 'development' ? 'dev' : 'prod'
 export const API_BASE =
-  SITE_ENV === 'prod' ? '/api' : 'https://blog-now.hanze.icu/api'
+  SITE_ENV === 'prod' ? '/api' : 'https://blog-now-amber.vercel.app/api'
 export const PROJECT_NAME = 'Blog Now'
 export const VERSION = version
 
